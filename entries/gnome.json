@@ -2,10 +2,14 @@
     "log-out": {
         "command": "gnome-session-quit --logout"
     },
+    "hibernate": {
+        "command": "systemctl hibernate"
+    },
     "restart": {
         "command": "gnome-session-quit --reboot"
     },
     "shutdown": {
         "command": "gnome-session-quit --power-off"
     }
+
 }
